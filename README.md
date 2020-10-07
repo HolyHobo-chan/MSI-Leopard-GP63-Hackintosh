@@ -8,3 +8,5 @@ What to do:
 1.  HDMI out. (Possible as HDMI is wired to the iGPU, display port not possible as it is wired to the dGPU.)
 
 2.  Improvment on trackpad, (the latest version of voodooPS2Controller works, but breaks the left and right click on the trackpad. Not sure how to fix this.)
+
+3. Fix dGPU coming back on after sleep. (You can tell that the GPU turns back on as the power button turns red.)
