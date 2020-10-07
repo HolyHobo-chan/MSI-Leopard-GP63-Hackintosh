@@ -645,9 +645,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,1</string>
 		<key>SerialNumber</key>
-		<string>C02WFQZ7KGYG</string>
+		<string>"INSERT SERIAL NUMBER HERE"</string>
 		<key>SmUUID</key>
-		<string>5B247544-7316-419A-9D6D-8703E7084ADC</string>
+		<string>"INSERT UUID HERE"</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
