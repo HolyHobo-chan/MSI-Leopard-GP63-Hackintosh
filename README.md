@@ -7,4 +7,4 @@ Thanks to @MaLD0n from the InsanelyMac forums with helping with DSDT patches. Sp
 What to do:
 1.  HDMI out. (Possible as HDMI is wired to the iGPU, display port not possible as it is wired to the dGPU.)
 
-2.  Improvment on trackpad, (the latest version of voodooPS2Constroller works, but breaks the left and right click on the trackpad. Not sure how to fix this.)
+2.  Improvment on trackpad, (the latest version of voodooPS2Controller works, but breaks the left and right click on the trackpad. Not sure how to fix this.)
