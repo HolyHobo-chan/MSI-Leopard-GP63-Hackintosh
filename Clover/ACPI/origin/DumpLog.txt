@@ -1,0 +1,128 @@
+7:597  1:747  Found UEFI Acpi 2.0 RSDP at 79427000
+7:597  0:000  Saving ACPI tables from RSDP 79427000 to EFI\CLOVER\ACPI\origin ...
+7:597  0:000   79427000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:610  0:012    (Xsdt: 794270B0, Rsdt: 79427028)
+7:610  0:000    794270B0: 'XSDT', 'MEGABOOK', Rev: 1, Len: 220 -> XSDT.aml
+7:621  0:011    79427028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 128 -> RSDT.aml
+7:631  0:010    Tables in Xsdt: 23
+7:631  0:000    0. 7945F088: 'FACP', 'MEGABOOK', Rev: 6, Len: 276 -> FACP.aml
+7:642  0:010        (Dsdt: 79427218, Facs: 7995E080, XDsdt: 79427218, XFacs: 0)
+7:642  0:000        79427218: 'DSDT', 'MEGABOOK', Rev: 2, Len: 228972 -> DSDT.aml
+7:658  0:016        7995E080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:669  0:010    1. 7945F1A0: 'APIC', 'MEGABOOK', Rev: 4, Len: 244 -> APIC.aml
+7:679  0:010    2. 7945F298: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68 -> FPDT.aml
+7:690  0:010    3. 7945F2E0: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156 -> FIDT.aml
+7:700  0:010    4. 7945F380: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60 -> MCFG.aml
+7:711  0:010    5. 7945F3C0: 'SSDT', 'SataTabl', Rev: 1, Len: 820 -> SSDT-0-SataTabl.aml
+7:722  0:010    6. 7945F6F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101 -> SSDT-1-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+7:733  0:010        * 793DB298: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1484  53 53 44 54 CC 05 00 00 02 E6 50 6D 52 65 66 00 Internal length = 1484 -> SSDT-x1_0-Cpu0Ist.aml
+7:744  0:011        * 793D4018: 'SSDT', 'ApIst', Rev: 2, Len: 3825  53 53 44 54 F1 0E 00 00 02 ED 50 6D 52 65 66 00 Internal length = 3825 -> SSDT-x1_1-ApIst.aml
+7:755  0:010        * 793D3018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x1_2-Cpu0Cst.aml
+7:765  0:010        * 793DB918: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x1_3-ApCst.aml
+7:776  0:010        * 76C0FE98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 266  53 53 44 54 0A 01 00 00 02 9F 50 6D 52 65 66 00 Internal length = 266 -> SSDT-x1_4-Cpu0Hwp.aml
+7:787  0:010        * 76C19518: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x1_5-ApHwp.aml
+7:798  0:011        * 76C09018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x1_6-HwpLvt.aml
+7:808  0:010  
+7:808  0:000    7. 79460ED0: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85 -> MSDM.aml
+7:819  0:010    8. 79460F28: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374 -> SLIC.aml
+7:841  0:022    9. 794610A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743 -> SSDT-2-SaSsdt.aml
+7:852  0:010    10. 79464268: 'SSDT', 'PegSsdt', Rev: 2, Len: 8512 -> SSDT-3-PegSsdt.aml
+7:863  0:010    11. 794663A8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56 -> HPET.aml
+7:873  0:010    12. 794663E0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10592 -> SSDT-4-xh_cfhd4.aml
+7:884  0:010    13. 79468D40: 'UEFI', 'MEGABOOK', Rev: 1, Len: 72 -> UEFI.aml
+7:896  0:011    14. 79468D88: 'LPIT', 'MEGABOOK', Rev: 1, Len: 92 -> LPIT.aml
+7:907  0:010    15. 79468DE8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206 -> SSDT-5-PtidDevc.aml
+7:918  0:011    16. 7946B5C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094 -> SSDT-6-TbtTypeC.aml
+7:928  0:010    17. 7946C5C8: 'DBGP', 'MEGABOOK', Rev: 1, Len: 52 -> DBGP.aml
+7:939  0:010    18. 7946C600: 'DBG2', 'MEGABOOK', Rev: 0, Len: 84 -> DBG2.aml
+7:950  0:010    19. 7946C658: 'SSDT', 'SgPeg', Rev: 2, Len: 174 -> SSDT-7-SgPeg.aml
+7:960  0:010    20. 7946C708: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56 -> BGRT.aml
+7:971  0:010    21. 7946C740: 'SSDT', 'OptTabl', Rev: 1, Len: 8487 -> SSDT-8-OptTabl.aml
+7:983  0:011    22. 7946E868: 'WSMT', 'MEGABOOK', Rev: 1, Len: 40 -> WSMT.aml
+7:994  0:010    Tables in Rsdt: 23
+7:994  0:000    0. 79427190: 'FACP', 'MEGABOOK', Rev: 2, Len: 132 -> RSDT-FACP.aml
+8:004  0:010        (Dsdt: 79427218, Facs: 7995E040)
+8:004  0:000        79427218: 'DSDT', 'MEGABOOK', Rev: 2, Len: 228972
+8:008  0:003        7995E040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+8:024  0:016    1. 7945F1A0: 'APIC', 'MEGABOOK', Rev: 4, Len: 244
+8:024  0:000    2. 7945F298: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+8:024  0:000    3. 7945F2E0: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+8:024  0:000    4. 7945F380: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+8:024  0:000    5. 7945F3C0: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+8:024  0:000    6. 7945F6F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:024  0:000    7. 79460ED0: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+8:024  0:000    8. 79460F28: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+8:024  0:000    9. 794610A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:024  0:000    10. 79464268: 'SSDT', 'PegSsdt', Rev: 2, Len: 8512
+8:024  0:000    11. 794663A8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+8:024  0:000    12. 794663E0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10592
+8:024  0:000    13. 79468D40: 'UEFI', 'MEGABOOK', Rev: 1, Len: 72
+8:024  0:000    14. 79468D88: 'LPIT', 'MEGABOOK', Rev: 1, Len: 92
+8:024  0:000    15. 79468DE8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:024  0:000    16. 7946B5C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:024  0:000    17. 7946C5C8: 'DBGP', 'MEGABOOK', Rev: 1, Len: 52
+8:024  0:000    18. 7946C600: 'DBG2', 'MEGABOOK', Rev: 0, Len: 84
+8:024  0:000    19. 7946C658: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:024  0:000    20. 7946C708: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+8:024  0:000    21. 7946C740: 'SSDT', 'OptTabl', Rev: 1, Len: 8487
+8:024  0:000    22. 7946E868: 'WSMT', 'MEGABOOK', Rev: 1, Len: 40
+8:024  0:000  Found UEFI Acpi 1.0 RSDP at 79427000
+8:024  0:000  Printing ACPI tables from RSDP 79427000 ...
+8:024  0:000   79427000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:024  0:000    (Xsdt: 794270B0, Rsdt: 79427028)
+8:024  0:000    794270B0: 'XSDT', 'MEGABOOK', Rev: 1, Len: 220
+8:025  0:000    79427028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 128
+8:025  0:000    Tables in Xsdt: 23
+8:025  0:000    0. 7945F088: 'FACP', 'MEGABOOK', Rev: 6, Len: 276
+8:025  0:000        (Dsdt: 79427218, Facs: 7995E080, XDsdt: 79427218, XFacs: 0)
+8:025  0:000        79427218: 'DSDT', 'MEGABOOK', Rev: 2, Len: 228972
+8:028  0:003        7995E080: 'FACS', Ver: 2, Len: 64
+8:028  0:000    1. 7945F1A0: 'APIC', 'MEGABOOK', Rev: 4, Len: 244
+8:028  0:000    2. 7945F298: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+8:028  0:000    3. 7945F2E0: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+8:028  0:000    4. 7945F380: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+8:028  0:000    5. 7945F3C0: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+8:028  0:000    6. 7945F6F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:028  0:000    7. 79460ED0: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+8:029  0:000    8. 79460F28: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+8:029  0:000    9. 794610A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:029  0:000    10. 79464268: 'SSDT', 'PegSsdt', Rev: 2, Len: 8512
+8:029  0:000    11. 794663A8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+8:029  0:000    12. 794663E0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10592
+8:029  0:000    13. 79468D40: 'UEFI', 'MEGABOOK', Rev: 1, Len: 72
+8:029  0:000    14. 79468D88: 'LPIT', 'MEGABOOK', Rev: 1, Len: 92
+8:029  0:000    15. 79468DE8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:029  0:000    16. 7946B5C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:029  0:000    17. 7946C5C8: 'DBGP', 'MEGABOOK', Rev: 1, Len: 52
+8:029  0:000    18. 7946C600: 'DBG2', 'MEGABOOK', Rev: 0, Len: 84
+8:029  0:000    19. 7946C658: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:029  0:000    20. 7946C708: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+8:029  0:000    21. 7946C740: 'SSDT', 'OptTabl', Rev: 1, Len: 8487
+8:029  0:000    22. 7946E868: 'WSMT', 'MEGABOOK', Rev: 1, Len: 40
+8:029  0:000    Tables in Rsdt: 23
+8:029  0:000    0. 79427190: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+8:029  0:000        (Dsdt: 79427218, Facs: 7995E040)
+8:029  0:000        79427218: 'DSDT', 'MEGABOOK', Rev: 2, Len: 228972
+8:033  0:003        7995E040: 'FACS', Ver: 0, Len: 64
+8:033  0:000    1. 7945F1A0: 'APIC', 'MEGABOOK', Rev: 4, Len: 244
+8:033  0:000    2. 7945F298: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+8:033  0:000    3. 7945F2E0: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+8:033  0:000    4. 7945F380: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+8:033  0:000    5. 7945F3C0: 'SSDT', 'SataTabl', Rev: 1, Len: 820
+8:033  0:000    6. 7945F6F8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6101
+8:033  0:000    7. 79460ED0: 'MSDM', 'MEGABOOK', Rev: 3, Len: 85
+8:033  0:000    8. 79460F28: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+8:033  0:000    9. 794610A0: 'SSDT', 'SaSsdt', Rev: 2, Len: 12743
+8:033  0:000    10. 79464268: 'SSDT', 'PegSsdt', Rev: 2, Len: 8512
+8:033  0:000    11. 794663A8: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+8:033  0:000    12. 794663E0: 'SSDT', 'xh_cfhd4', Rev: 2, Len: 10592
+8:033  0:000    13. 79468D40: 'UEFI', 'MEGABOOK', Rev: 1, Len: 72
+8:033  0:000    14. 79468D88: 'LPIT', 'MEGABOOK', Rev: 1, Len: 92
+8:033  0:000    15. 79468DE8: 'SSDT', 'PtidDevc', Rev: 2, Len: 10206
+8:033  0:000    16. 7946B5C8: 'SSDT', 'TbtTypeC', Rev: 2, Len: 4094
+8:033  0:000    17. 7946C5C8: 'DBGP', 'MEGABOOK', Rev: 1, Len: 52
+8:033  0:000    18. 7946C600: 'DBG2', 'MEGABOOK', Rev: 0, Len: 84
+8:033  0:000    19. 7946C658: 'SSDT', 'SgPeg', Rev: 2, Len: 174
+8:033  0:000    20. 7946C708: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+8:033  0:000    21. 7946C740: 'SSDT', 'OptTabl', Rev: 1, Len: 8487
+8:033  0:000    22. 7946E868: 'WSMT', 'MEGABOOK', Rev: 1, Len: 40
